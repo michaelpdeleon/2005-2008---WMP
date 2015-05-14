@@ -1,0 +1,102 @@
+YOUR ZONE LOCATOR †
+
+For shipments originating in ZIP code(s):
+99578-99999
+
+How to use this chart:
+
+Shipping with FedEx distance-based rates is easy
+with this Zone Locator specially customized to your
+origin location. It shows the zone for anywhere your
+FedEx Express® or FedEx Ground® shipment is going.
+Here’s all you do:
+
+1. Find your recipient’s ZIP code in this list using
+   either the first three digits or the full ZIP code,
+   whichever is shown.
+2. See which zone the ZIP code corresponds to,
+   then turn to that zone in the appropriate FedEx
+   rate tables.
+3. Find your rate under the shipment weight and
+   FedEx® service you choose.
+
+Effective: 10/15/2002
+-------------------------------------------------------------------------------
+Destination Zip               FedEx Express Zone            FedEx Ground Zone             
+000-003                       NA                            NA                            
+004-005                       15                            25                            
+006-007                       *                             10                            
+008                           NA                            NA                            
+009                           *                             10                            
+010-576                       15                            25                            
+577                           15                            23                            
+578-585                       15                            25                            
+586                           15                            23                            
+587                           15                            25                            
+588-599                       15                            23                            
+600-799                       15                            25                            
+800-806                       15                            23                            
+807-811                       15                            25                            
+812-847                       15                            23                            
+848-852                       15                            25                            
+853-854                       15                            23                            
+855-859                       15                            25                            
+860-865                       15                            23                            
+866-872                       15                            25                            
+873-874                       15                            23                            
+875-885                       15                            25                            
+886-966                       15                            23                            
+96700                         12                            9                             
+96701                         10                            9                             
+96702-96705                   12                            9                             
+96706-96707                   10                            9                             
+96708                         12                            9                             
+96709                         10                            9                             
+96710                         12                            9                             
+96711-96712                   10                            9                             
+96713-96716                   12                            9                             
+96717                         10                            9                             
+96718-96729                   12                            9                             
+96730-96731                   10                            9                             
+96732-96733                   12                            9                             
+96734                         10                            9                             
+96735-96743                   12                            9                             
+96744                         10                            9                             
+96745-96757                   12                            9                             
+96758-96759                   10                            9                             
+96760-96761                   12                            9                             
+96762                         10                            9                             
+96763-96774                   12                            9                             
+96775                         10                            9                             
+96776-96781                   12                            9                             
+96782                         10                            9                             
+96783-96785                   12                            9                             
+96786                         10                            9                             
+96787-96788                   12                            9                             
+96789                         10                            9                             
+96790                         12                            9                             
+96791-96792                   10                            9                             
+96793                         12                            9                             
+96794-96795                   10                            9                             
+96796                         12                            9                             
+96797                         10                            9                             
+96798-96800                   12                            9                             
+96801-96863                   10                            9                             
+96864-96899                   12                            9                             
+969                           NA                            NA                            
+970-994                       15                            23                            
+995-999                       15                            22                            
+-------------------------------------------------------------------------------
+
+Zones differ for FedEx Express and FedEx Ground services outside the contiguous
+U.S. Refer to the appropriate service rate guides to determine your shipping costs.
+
+To request another Zone Locator go to fedex.com and select Get Rates under the Ship tab.
+
+†FedEx reserves the right to modify its services and zone structure without notice.
+
+Note: Go to fedex.com for information on FedEx Home Delivery®.
+NA = Not applicable or ZIP code(s) not assigned.
+
+*Consult the FedEx Service Guide or call 1.800.GoFedEx 1.800.463.3339
+for information on shipments to Puerto Rico

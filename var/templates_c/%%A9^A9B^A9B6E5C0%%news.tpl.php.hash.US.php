@@ -1,0 +1,1 @@
+d4d18e2c79b71c5d662af056975f1a88a:2:{s:8:"lbl_news";s:4:"News";s:14:"lbl_your_email";s:11:"Your email:";}

@@ -1,0 +1,1 @@
+{config_load file="$skin_config"}{ $config.Company.company_name }: {if $giftcert.recipient}{assign var="rcpt" value=$giftcert.recipient}{else}{assign var="rcpt" value=$giftcert.recipient_email}{/if}{$lng.eml_giftcert_notification_subj|substitute:"recipient":$rcpt}

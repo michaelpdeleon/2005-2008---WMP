@@ -1,0 +1,1 @@
+0a99b2a139dccf961a6efeada325de31a:5:{s:9:"lbl_close";s:5:"Close";s:9:"lbl_error";s:5:"Error";s:27:"lbl_go_to_last_edit_section";s:23:"Go to last edit section";s:15:"lbl_information";s:11:"Information";s:11:"lbl_warning";s:7:"Warning";}

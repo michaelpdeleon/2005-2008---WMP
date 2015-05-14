@@ -1,0 +1,87 @@
+A.CheckoutTab:link {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: underline;
+}
+A.CheckoutTab:visited {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: underline;
+}
+A.CheckoutTab:hover {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: none;
+}
+A.CheckoutTab:active {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: underline;
+}
+.CheckoutTabSel {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+}
+.LineAfterCart {
+	BACKGROUND-COLOR: #FFD44C;
+}
+.LineBeforeCart {
+	BACKGROUND-COLOR: #FF8600;
+}
+.BigButtonTitle {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+}
+.RedBackground {
+	BACKGROUND-COLOR: #FF8600;
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-ALIGN: center;
+}
+.YellowBackground {
+	BACKGROUND-COLOR: #FFD44C;
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-ALIGN: center;
+}
+A.ShippingMethod:link {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: underline;
+}
+A.ShippingMethod:visited {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: underline;
+}
+A.ShippingMethod:hover {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: none;
+}
+A.ShippingMethod:active {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: underline;
+}
+.BBCorner {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+}
+.FLC_Register {
+    COLOR: #550000;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+}

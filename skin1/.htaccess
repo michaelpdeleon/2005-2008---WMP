@@ -1,0 +1,9 @@
+<files "*.tpl"> 
+deny from all 
+</files> 
+
+<files "*.conf">
+deny from all
+</files>
+
+allow from all

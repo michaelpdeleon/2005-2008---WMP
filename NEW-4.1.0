@@ -1,0 +1,458 @@
+X-Cart 4.1.0
+============
+
+Dear customers!
+
+We are excited to announce the release of X-Cart 4.1.0. Over a year X-Cart team has been working to enhance the functionality and performance offered by X-Cart e-commerce software and finally you have a chance to experience the many improvements introduced during this period.
+
+While developing X-Cart 4.1.0, not only did we add new features, but we also paid a lot of attention to performance advancement: decreased the number of complex SQL requests, added a data caching mechanism, optimized the PHP code to reduce the required memory limit.
+
+Our thanks to everyone who actively participated and provided feedback.
+
+
+Here is a list of key features for 4.1.0 version:
+
+4.1.0
+-----
+
+	- Support for product data import from the earlier versions of X-Cart (Import_3x_4x module)
+	- a lot of bugfixes and minor improvements
+
+RC4
+---
+
+	- support for USPS Domectic rate calculator API 2.0;
+	- a lot of bugfixes and minor improvements
+
+RC3
+---
+
+	- X-Magnifier add-on module (will soon be available on a commercial basis - watch out for announcements at x-cart.com);
+	- a few minor design and functionality improvements;
+	- a lot of bugfixes
+
+RC2
+---
+
+	- import/export for extra fields;
+	- 2-column layout of the admin/provider area;
+	- WYSIWYG editor for Webmaster mode
+
+RC1
+---
+
+	- 'stop words filter' for products search facility (a special filter that ensures that service and link words that occur in the search pattern are ignored when search by individual words is performed - available only for the English language);
+	- support for MySQL 5.0.12;
+	- advanced (WYSIWYG) editor for product/category/manufacturer descriptions, language variables, static pages, etc;
+	- 'tax exemption' feature for customers;
+	- Smarty updated to the version 2.6.12
+
+BETA 2
+------
+
+	- XHTML 1.0 Transitional compliant code;
+	- improved product search functionality: a new search option affecting product search by multiple words is added (Users can now specify whether the results returned by a search should match 'All words', 'Any word' or the 'Exact phrase' of the search pattern);
+	- enhanced control over images location: image files can now be moved to the file system during X-Cart installation;
+	- support for generation of manufacturers' static pages in HTML catalog;
+	- minor changes of the user profile page: 'Same as billing address' checkbox in the shipping address section is replaced with 'Ship to a different address' checkbox;
+	- improved orders/order invoices: customer notes are separated from the order details and included into the order invoice;
+	- optimized design of the 'Languages' section: input boxes for label values are enlarged for your convenience, description field is removed, ability to search for labels in all topics is added;
+	- multi-language support for extra field names;
+	- minor improvement in Fast Lane Checkout module: 'Register' form provided at the step of user authorization is made hidden by default (can be opened by clicking a link);
+	- a more convenient method of using product detailed images: a new option 'Switch detailed images in a popup window without page reloading (using the dynamic image loading)' is added. 
+	- advanced management of customers' credit card information: admin now has the ability to discard credit card information provided by customers saving only the last 4 digits of credit card numbers in order details (Admin area -> Tools page -> Credit card information removal section)
+
+BETA 1
+------
+
+	- a more user-friendly and intuitive checkout procedure (Fast Lane Checkout module);
+	- a new patch/upgrade center that will allow you to upgrade installed add-ons and non-standard X-Cart skins;
+	- export/import functionality for almost all data types (products and all related information, categories, coupons, destination zones, users, etc);
+	- support for simultaneous use of more than one user type in one browser session (for example, a user can be logged in as an administrator and a customer at the same time);
+	- ability for administrator to enter the store as another user;
+	- X-FancyCategories module revised to ensure stable performance of the store with large numbers of categories (over 500);
+	- advanced membership system: ability to assign one or more memberships to each of the products, categories, payment methods, tax rates and discounts;
+	- System fingerprints: ability to compare the status of the store files before and after modification and to discover which files have been deleted, added or modified;
+	- wholesale prices and thumbnail images for product variants;
+	- ability to display product detailed images in popup windows;
+	- Australia Post's Delivery Rate Calculator support;
+	- 'Same as billing address' checkbox on the user profile page (for the shipping address section);
+	- support for a number of new payment gateways;
+	- ability to create discount coupons with more options;
+	- multi-language support for the speed bar, payment methods, user titles etc;
+	- support for a more advanced encryption method for sensitive data (Blowfish);
+	- Smarty template engine upgraded up to version 2.6.10;
+
+
+Below is a classified list of the main changes between X-Cart 4.0.x and 4.1.x branches.
+For a full list of changes, please refer to the CHANGELOG.
+
+ 
+USER INTERFACE
+==============
+
+Fri Apr 07 18:01:00 MSD 2006 [*] - svowl - Improvement: Input text boxes are replaced with textareas for 'meta_descr' and 'meta_keywords' options (General settings/SEO options).
+
+Fri Apr 07 18:01:00 MSD 2006 [*] - svowl - Improvement: Now it is possible to see order creation time in the orders list.
+
+Fri Apr 07 18:01:00 MSD 2006 [*] - svowl - Improvement: Style is added for the printable invoice page.
+
+Fri Apr 07 18:01:00 MSD 2006 [*] - svowl - The order of displaying orders on the orders list page is changed to reverse (latest orders come first).
+
+Fri Apr 07 15:28:00 MSD 2006 [*] - svowl - The option 'Enable tracking statistics' is moved to the 'Advanced statistics' module. The option 'Enable shop statistics' is added.
+
+Fri Mar 03 10:47:19 MSK 2006 [*] - max - Improvement: A note 'The order total amount is greater than the balance on the gift certificate you have applied...' is added to the Checkout procedure.
+
+Mon Feb 13 16:26:44 MSK 2006 [*] - max - Improvement: Category international description section is moved to a separate page.
+
+Fri Feb 10 17:25:00 MSK 2006 [*] - svowl - Several improvements to the Admin/Provider area design: a 2-column style is introduced, 'Users online' box is redesigned and moved to the bottom of page, the information which used to be displayed in auth box after a user logged in is moved to the header (Admin/Provider area).
+
+Tue Feb 07 13:53:20 MSK 2006 [*] - max - Improvement: Webmaster mode functionality is redesigned (Label Dialog window part), WYSIWYG editor is added.
+
+Fri Jan 27 12:13:02 MSK 2006 [+] - max - Advanced (WYSIWYG) editor for product/category/manufacturer descriptions, language variables, static pages, etc is added (HTML Editor module).
+
+Fri Dec 02 16:12:07 MSK 2005 [*] - max - Improvement: 'Switch detailed images in a popup window without page reloading (using the dynamic image loading)' option is added.
+
+Thu Nov 18 17:06:00 MSK 2005 [*] - svowl - Design and usability of the 'Destination zones' section are improved.
+
+Wed Nov 16 17:29:00 MSK 2005 [*] - svowl - Improvement: Design of the 'Languages' section is optimized (input boxes for label values are enlarged, description field is removed, ability to search in all topics is added).
+
+Sat Nov 12 10:37:09 MSK 2005 [*] - max - Improvement: 'Same as billing address' functionality on the Register page is replaced by 'Ship to a different address' functionality.
+
+Fri Nov 11 17:38:00 MSK 2005 [*] - svowl - Improvement: Order details are now shown to customers in the form of an order invoice.
+
+Thu Nov 03 14:30:00 MSK 2005 [*] - svowl - The Site title is now defined as a language variable 'lbl_site_title' instead of the 'Company name' option.
+
+Fri Sep 30 11:45:34 MSD 2005 [*] - mclap - Improvement: 'No cookies' warning message is restored for the Customer area.
+
+Wed Aug 10 15:21:05 MSD 2005 [*] - mclap - Improvement: Usability of "General Settings" in the Admin area is improved: ability to select/unselect checkboxes by clicking the option names is added.
+
+Thu Jun 23 10:18:50 MSD 2005 [*] - max - Improvement: anti-double-click functionality is added on the last checkout page.
+
+Wed Jun 22 14:57:27 MSD 2005 [*] - max - Improvement: 'Display detailed images in popup window' option is added.
+
+Mon May 16 16:05:00 MSD 2005 [*] - svowl - The section 'General settings' is improved: the options structure is revised and changed, option separators are added; each module has its own options group now.
+
+Mon Apr 25 14:11:43 MSD 2005 [*] - max - Improvement: Reset (JS-script-based) button is added on Search for users page, Search for products page and Search for orders page.
+
+Mon Apr 04 17:21:54 MSD 2005 [*] - max - Improvement: Select product popup window is improved: selectboxes now react to onDblClick event.
+
+Fri Feb 25 14:32:11 MSK 2005 [*] - max - Improvement: Text direction option for any language is added (needed for languages with a right-to-left text direction, e.g Arabic).
+
+Thu Feb 24 16:10:15 MSK 2005 [*] - max - Improvement: Settings for 'Checkout registration page' are added on User profiles options page; Shipping/billing title/firstname/lastname fields are added on User profiles options page.
+
+Thu Feb 24 15:33:35 MSK 2005 [*] - max - Improvement: "'Same as billing address' checkbox on register page" functionality is added.
+
+Tue Jan 25 17:25:09 MSK 2005 [*] - max - Improvement: An option "The section 'Send to friend' on the Product details page is enabled" is added.
+
+
+
+USER MANAGEMENT
+===============
+
+Tue Jan 31 17:24:02 MSK 2006 [+] - svowl - 'Tax exemption for customers' feature is added.
+
+Fri Apr 22 17:34:38 MSD 2005 [*] - mclap - Improvement: A new option "operate as this user" is added to the Multi-type login feature. Available only to administrators (enables administrator to operate as ordinary users).
+
+Tue Apr 19 10:56:19 MSD 2005 [+] - mclap - Multi-type login is added: now store administrator or developer can work in multiple areas at the same time using different login names.
+
+Wed Mar 23 11:18:03 MSK 2005 [*] - mclap - Improvement: account status and activity flag can now be changed for groups of users.
+
+Thu Mar 17 17:51:54 MSK 2005 [+] - mclap - User accounts now can be temporarily disabled: admin can deny login to a user or disable acitivy for providers and partners (provider's products will be temporarily hidden, partner will not get any commisions).
+
+
+
+PRODUCT CATALOG MANAGEMENT
+==========================
+
+Mon Nov 21 11:01:00 MSK 2005 [*] - svowl - Improvement: A new option 'Display product code (SKU) in the products list' is added on the General settings/Appearance options page.
+
+Mon Nov 14 16:14:18 MSK 2005 [*] - max - Improvement: The 'search products by SKU' functionality in the Customer area is changed: now, instead of entering an SKU into a separate 'SKU' field, a customer enters it as a normal search string selecting a 'Search in...SKU' checkbox.
+
+Tue Jul 26 15:09:40 MSD 2005 [*] - max - Improvement (Group editing of products functionality): Group editing is now possible for large quantities of product titles.
+
+Fri Jul 22 10:38:40 MSD 2005 [*] - max - Improvement: Ability to apply a tax globally to all the products in the store is added.
+
+Thu Jul 21 16:05:25 MSD 2005 [*] - max - Improvement: Now productcode identifiers may not be unique with regard to the entire store, uniqueness by provider is enough.
+
+Mon May 16 15:21:58 MSD 2005 [*] - max - Improvement: Product options design is changed; product options exception mechanism is changed (Now it is possible to set up exceptions based on a number of options smaller than the number of options necessary for a complete option combination corresponding to a specific product; for example, if size S is unavailable for Red and Blue t-shirts, it is enough to set up an exception "Size S" instead of two separate exceptions "Size S + Color Red" and "Size S + Color Blue").
+
+Fri Apr 08 16:45:01 MSD 2005 [*] - mclap - Improvement: Ability to define keywords for products is added (now products can be searched for by these keywords).
+
+Thu Apr 07 17:15:22 MSD 2005 [*] - max - Improvement: Memberships mechanism is redesigned; now memerbship-based restrictions can be defined for access to products.
+
+Tue Mar 29 15:39:14 MSD 2005 [*] - max - Improvement: Images mechanism is redesigned; ability to use product images for products and product variants is added.
+
+Fri Jan 21 17:35:04 MSK 2005 [*] - max - Improvement: HTML catalog can now work with the dynamic part of the store when the Customer frontend is closed (customers can browse the catalog pages as usual, but when an attempt is made to access the dynamic part, 'shop closed' message is displayed).
+
+Wed Jan 19 16:58:11 MSK 2005 [*] - max - Improvement: "Orderby" field is added for Extra fields module.
+
+Tue Dec 21 14:28:43 MSK 2004 [*] - max - Improvement: Ability to use thumbnails for Product variants is added; an option "Default variant" is added.
+
+Mon Dec 20 14:17:31 MSK 2004 [*] - max - Wholesale prices for Product variants are added.
+
+
+
+SHIPPING MANAGEMENT
+===================
+
+Wed Mar 22 15:39:19 MSK 2006 [*] - max - Improvement: USPS shipping method is updated: support for Domectic rate calculator API 2.0 is added.
+
+Fri Feb 03 15:46:00 MSK 2006 [*] - svowl - Improvement: The calculation of UPS shipping time is corrected: a shipping time defined by admin is now used if UPS server response does not contain this field for some shipping method (UPS OnLine Tools module).
+
+Fri Jun 17 17:23:21 MSD 2005 [*] - max - Improvement: "Add unknown shipping method to database" functionality is added (If a real-time shipping calculation service provides information about a payment method unknown to your store, it will be added to the database).
+
+Wed Jun 15 09:44:09 MSD 2005 [*] - max - Improvement: Shipping methods page design is changed; fields for origin address are added on the Test realtime shipping methods page.
+
+Thu Mar 03 11:58:16 MSK 2005 [+] - max - Australia Post realtime shipping method is added.
+
+
+
+CART / CHECKOUT
+===============
+
+Fri Aug 19 16:36:00 MSD 2005 [*] - svowl - Improvement in the calculation of cart totals: discounts and taxes are now applied to the product subtotal instead of the product price to avoid a number of rounding up errors which may occur in some cases.
+
+Mon Aug 15 16:53:00 MSD 2005 [*] - svowl - The customer's zone calculation algorithm (func_get_customer_zones_avail() function) is simplified and optimized to decrease the number of SQL queries and code lines.
+
+Wed Apr 20 14:26:15 MSD 2005 [*] - mclap - Improvement: the possibility to define a maximum order subtotal and a maximum quantity of products is added.
+
+Fri Mar 04 11:55:00 MSK 2005 [+] - svowl - 'Fast Lane Checkout' module is added.
+
+Mon Jan 24 15:27:46 MSK 2005 [*] - max - Improvement: An option "Return the customer to the dynamic part of the store if the option "Redirect customer to cart" is disabled and the customer got to the cart page from the HTML-catalog" is added.
+
+
+
+PAYMENT ACCEPTANCE
+==================
+
+Wed Apr 05 16:16:00 MSD 2005 [-] - svowl - Way2Pay payment module is removed as this payment processor no longer exists.
+
+Tue Jan 24 17:42:37 MSK 2006 [+] - mclap - Improvement: DataTrans.Standard (web-based) payment module is added instead of the outdated Datatrans (background) payment module.
+
+Mon Nov 21 10:22:00 MSK 2005 [*] - svowl - Improvement: CC expiration date field format is changed (used to be: 'January - 2006', now is: '01 - 2006').
+
+Fri Oct 07 10:14:58 MSD 2005 [*] - mclap - Improvement: All disfunctional payment methods are disabled during checkout now.
+
+Mon Sep 19 09:04:00 MSD 2005 [+] - svowl - The ability to add a payment method surcharge is added.
+
+Tue Apr 26 13:53:07 MSD 2005 [+] - max - PSiGate XML interface payment method is added.
+
+Mon Apr 25 16:00:48 MSD 2005 [*] - max - Improvement: COD payment method is updated: extra charge is added; option for shipping methods is added.
+
+Mon Mar 07 11:17:28 MSK 2005 [+] - max - ANZ eGate Merchant-Hosted payment module is added.
+
+Thu Oct 14 10:44:00 MSD 2004 [+] - sdg - Heidel payment module (DirectDebit) is added.
+
+Wed Oct 13 15:49:00 MSD 2004 [+] - sdg - Heidel payment module (CreditCard) is added.
+
+Sun Oct 10 13:15:00 MSD 2004 [+] - sdg - A web-based payment module Bank of America is added.
+
+Thu Sep 30 11:05:00 MSD 2004 [+] - sdg - Bank of Asia payment module is added.
+
+Thu Sep 23 10:49:00 MSD 2004 [+] - sdg - PayPro payment module is added.
+
+Tue Sep 21 15:22:00 MSD 2004 [+] - sdg - TotalTrans payment module is added. 
+
+Mon Sep 20 13:53:00 MSD 2004 [+] - sdg - Credomatic payment module is added.
+
+Thu Aug 26 13:41:00 MSD 2004 [+] - sdg - Secure-I payment module is added.
+
+
+
+SEARCH PROCEDURES
+=================
+
+Wed Dec 28 12:18:24 MSK 2005 [*] - max - Improvement in 'Allow searching by individual words of a search phrase' functionality: 'Stop words filter' is added (a functionality filtering off service and link words from the search pattern - for English only).
+
+Fri Dec 09 14:33:05 MSK 2005 [*] - max - Improvement: 'Allow searching by individual words of a search phrase' option is added; full_descr field (xcart_products_lng table) is renamed to fulldescr.
+
+Tue Sep 20 10:51:00 MSD 2005 [+] - svowl - Ability to get product search results page via GET-request is added.
+
+
+
+IMPORT/EXPORT PROCEDURES
+========================
+
+Thu Dec 01 17:12:47 MSK 2005 [*] - max - Improvement: 'Reset' button was added on Import/Export page; small logic changes in new import/export mechanism were made.
+
+Wed Apr 27 11:56:00 MSD 2005 [*] - svowl - Improvement: Data import procedure is made more flexible; the range of data types that can be imported is extended.
+
+
+
+PERFORMANCE
+===========
+
+Tue Mar 28 14:27:18 MSD 2006 [*] - max - Improvement: The routine of selecting tax rates for a product with a certain combination of options is optimized for speed: this kind of data can now be temporarily stored in the memory cache instead of DB, so X-Cart does not have to turn to MySQL every time it needs tax rate information.
+
+Mon Feb 27 10:30:49 MSK 2006 [*] - max - 'Counting the number of categories' subcategories' functionality is optimized for speed.
+
+Fri Oct 07 17:29:00 MSD 2005 [*] - svowl - Improvement: The procedure for processing tracking statistics is moved to the end of script execution (to the func_display() function). This should speed up the store performance when too much statistical data is already stored in the database.
+
+Fri Aug 26 17:22:09 MSD 2005 [*] - max - Improvement: Product categories functionality and Fancy categories module are improved: templates are optimized and rebuilt; inner categories structure for Fancy categories module is optimized.
+
+Tue Aug 23 14:46:29 MSD 2005 [*] - max - Clear benchmark statistics functionality is added for Internal performance measurement mechanism.
+
+Mon Aug 22 17:47:27 MSD 2005 [+] - max - Internal performance measurement mechanism is added.
+
+Tue Jul 19 13:40:53 MSD 2005 [*] - max - Improvement: product search mechanism is changed; data cache functionality is added.
+
+Sat Apr 23 14:33:45 MSD 2005 [*] - max - Improvement: The product search SQL-query is optimized to increase the speed of product search when the products have product variants.
+
+Fri Jan 21 09:36:05 MSK 2005 [*] - max - Improvement: The product search SQL query is optimized to allow work with big data selections on some MySQL server configurations.
+
+Thu Jan 06 10:47:19 MSK 2005 [*] - mclap - The function func_display() is improved: now it uses only one fetch.
+
+Fri Dec 10 14:37:17 MSK 2004 [*] - max - Improvement: Product search-Database interaction is optimized (the amount of SQL quiries is reduced).
+
+
+
+MODULES
+=======
+
+Mon Apr 10 10:38:31 MSD 2006 [+] - max - Import_3x_4x module is added allowing you to import product data from the earlier versions of X-Cart (provides compatibility with v. 3.x-4.x data formats).
+
+Thu Apr 06 17:28:41 MSD 2006 [*] - max - Improvement: Service names for new extra fields are predefined automaticaly based on existing serice names.
+
+Wed Apr 05 15:20:00 MSD 2005 [*] - svowl - Ability to include hidden products into bonuses is added (X-SpecialOffers).
+
+Tue Mar 28 10:16:56 MSD 2006 [*] - max - Improvement: The procedure of detecting the default product options set is changed: the default product options set is now defined by the options' Order By values and the default product variant instead of the cheapest product options set markup.
+
+Sat Feb 25 13:17:07 MSK 2006 [+] - max - X-Magnifier add-on module is added.
+
+Thu Feb 16 09:58:29 MSK 2006 [*] - max - Improvement: 'Service name' field is added to Extra fields module; import/export section for Extra fields module is added; events are added to Import/Export mechanism.
+
+Tue Feb 14 17:42:49 MSK 2006 [*] - max - Improvement in Fancy categories module: The process of category cache rebuilding is made faster and more accurate: now, when the categories are updated, only the affected portion of the category cache gets rebuilt.
+
+Fri Feb 10 17:13:34 MSK 2006 [*] - max - Improvement: JS state and county selector is improved. 'Recipient county' field is added to the list of fields in Gift Certificates module.
+
+Thu Dec 08 10:23:36 MSK 2005 [*] - max - Improvement: On checkout (at the stage where a customer selects a shipping method by which the ordered products should be delivered) warning notes about all allowed real-time shipping methods are now displayed at all times (regardless of whether a shipping method is selected by a customer or not) (Fast Lane Checkout module).
+
+Sat Nov 19 13:30:15 MSK 2005 [*] - max - Improvement: Pagination of the subscribers email list was added on the News list mailing list page (News management module).
+
+Wed Nov 16 12:49:00 MSK 2005 [*] - svowl - Improvement in the Fast Lane Checkout module: the Register form (at the step of user authorization) is made hidden by default (can be opened by clicking a link).
+
+Sat Nov 12 11:35:28 MSK 2005 [*] - max - Improvement: Multilanguge support is added for extra field names (Extra fields module).
+
+Fri Nov 11 17:49:00 MSK 2005 [*] - svowl - 'WARNING: Antifraud module is not enabled' note is removed from the order invoice page.
+
+Mon Oct 10 16:31:22 MSD 2005 [*] - mclap - Improvement: An option is added that will enable customers to choose a design for Gift certificate cards that will be sent by postal mail.
+
+Fri Sep 09 15:02:00 MSD 2005 [*] - svowl - Improvement: Ability to create discount coupons with more flexible options is added: 'How to apply the discount' option is added for absolute coupon types (once per order, to each product item or to each product title) and the ability to set up 'Times to use' option based on 'per customer' principle.
+
+Fri Sep 09 11:13:19 MSD 2005 [*] - max - Improvement: Multilanguage values are now supported for manufacturer name and description.
+
+Fri Aug 26 16:28:40 MSD 2005 [*] - mclap - Improvement: Multi-language support is added to the News Management module.
+
+Thu Jun 23 16:29:35 MSD 2005 [*] - max - Improvement: Ability to use HTML tags in the description of manufacturers is added.
+
+Fri Jun 10 15:00:06 MSD 2005 [*] - mclap - Improvement: Printing of Gift Certificates is imroved; 2 sample templates are added.
+
+Tue May 10 15:51:09 MSD 2005 [*] - max - Ability to delete a manufacturer logo image is added.
+
+Thu Apr 07 16:20:42 MSD 2005 [*] - mclap - Improvement: Admin can now select different templates for gift certificates meant for sending via postal mail and print them.
+
+Mon Apr 04 12:05:51 MSD 2005 [*] - mclap - Improvement: Newslist message now can be sent using multiple passes (N emails per pass) with an adjustable delay between the passes.
+
+Thu Jan 20 15:55:10 MSK 2005 [*] - max - Improvement: Updating IP addresses functionality in added (Stop list module).
+
+Wed Jan 19 17:57:17 MSK 2005 [*] - max - Improvement: pagination for Manufacturers list page (Customer area) is added.
+
+
+
+SECURITY
+========
+
+Wed Dec 07 18:21:19 MSK 2005 [*] - max - Improvement: 'Save the last 4 digits of credit card numbers in order details' option was added in Credit card information removal section (Admin area -> Tools page).
+
+Thu Dec 01 18:24:50 MSK 2005 [*] - max - Improvement: The registry of fields containing encrypted data was unified.
+
+Sat Sep 17 11:21:47 MSD 2005 [+] - max - Blowfish key generation procedure is added to install.php script.
+
+Thu Sep 15 17:17:28 MSD 2005 [*] - mclap - Improvement: SQL error logging is improved: more details (QUERY_STRING, remote IP etc) are added.
+
+Thu Sep 08 17:56:03 MSD 2005 [*] - max - Improvement: Blowfish encryption method is now used for credit card number and credit card CVV2 fields.
+
+Thu Sep 08 16:26:38 MSD 2005 [*] - max - Improvement: SALT encryption method was replaced with Blowfish encryption method.
+
+Thu Jan 06 17:22:51 MSK 2005 [*] - mclap - Security of compiled templates is improved: optional md5 check is added. See the option "Check MD5 of compiled templates for better store protection at a shared hosting" on the General settings / Security options page. This option is enabled by default.
+
+
+
+PATCH/UPGRADE
+=============
+
+Fri Aug 12 09:59:13 MSD 2005 [*] - mclap - Improvement: Patch/Upgrade center can now create new files when applying a patch.
+
+Tue Jul 12 12:51:35 MSD 2005 [+] - mclap - Improvement: Patch/Upgrade center is now able to upgrade installed add-ons and alternative skins.
+
+Wed Jun 08 10:49:42 MSD 2005 [*] - mclap - Improvement: Patch/Upgrade center does not use patch.pl any more.
+
+
+
+MISCELLANEOUS
+=============
+
+Tue Mar 28 12:18:05 MSD 2006 [*] - max - Improvement: X-Cart's set of CSS files is brought to conformity with W3C recommendations (Errors which used to be detected by W3C CSS Validation Service have been eliminated).
+
+Thu Mar 23 16:27:06 MSK 2006 [*] - max - Improvement: Charset column is removed from the Countries page.
+
+Wed Mar 15 15:39:47 MSK 2006 [*] - max - Improvement: Default image was displayed as a link to the image file (instead of a link to the dynamic script) on the Product list page, Product details page and Cart page.
+
+Tue Mar 14 11:28:50 MSK 2006 [*] - max - Improvement: Product images on the Cart page are now affected by 'The thumbnail width in the products list' option; product id is replaced by product code in product title.
+
+Fri Mar 10 12:27:27 MSK 2006 [*] - max - Improvement: 'Upload all remote images to the selected image repository' option is added for the new Images mechanism; image properties are now displayed in Admin area as alternative text for <img ... > tag; small logic changes have been made in the new Images mechanism.
+
+Tue Feb 14 15:34:15 MSK 2006 [*] - mclap - Improvement: A blank screen with the message "Please follow this link" no longer appears in Opera 8.x.
+
+Tue Feb 07 09:33:41 MSK 2006 [*] - max - Improvement: Size of memberships select box now depends on the length of memberships list.
+
+Mon Jan 30 15:19:33 MSK 2006 [*] - mclap - Improvement: Smarty is upgraded to the version 2.6.12.
+
+Fri Jan 06 10:00:00 MSK 2006 [*] - max - SQL queries are restructured for compatibility with MySQL 5.0.12 and later.
+
+Fri Dec 09 20:39:11 MSK 2005 [*] - mclap - Improvement: Images can now be moved to the filesystem during installation.
+
+Tue Nov 22 17:57:19 MSK 2005 [*] - mclap - Improvement: Generation of manufacturers' pages is added, generation of file names is corrected for multilanguage catalog (HTML catalog).
+
+Mon Nov 22 10:17:00 MSK 2005 [*] - svowl - Improvement: 'Has states' field of countries is updated according to the states existing in the database during X-Cart installation, creation/deletion of states and importing of states.
+
+Mon Nov 21 17:36:00 MSK 2005 [*] - svowl - Improvement: Customer notes are separated from the order details and included to the order invoice.
+
+Fri Oct 28 11:50:38 MSD 2005 [*] - max - Improvement: 'Check CC number', 'Check email address', 'Check required fields' and 'Check zipcode' JS-based functionalities are removed to external JS scripts.
+
+Mon Sep 19 18:05:13 MSD 2005 [*] - mclap - Improvement: Temporary directories (like "log", "cache", "templates_c") are moved to a new top level subdirectory "var" (e.g. "var/log", "var/cache", "var/templates_c"). For a full list, see config.php.
+
+Wed Aug 24 11:57:12 MSD 2005 [+] - max - Multithreading HTTP requester is added.
+
+Tue Aug 23 17:26:47 MSD 2005 [*] - max - 'Remove test/demo data' functionality is added (Summary->Tools).
+
+Tue Aug 23 17:25:23 MSD 2005 [*] - max - Checkboxes list checker (Javascript level) is added.
+
+Fri Jul 29 11:51:35 MSD 2005 [+] - mclap - Improvement: new function "func_pathcmp()" for cross-platform path comparison is added.
+
+Sat Jun 25 14:18:22 MSD 2005 [*] - max - Improvement: 'Multirow input data' Javascript-functionality is added. This functionality is used, for example, on the Product options and Product variants pages.
+
+Fri Jun 24 15:12:40 MSD 2005 [*] - max - Improvement: Advanced mechanism for including JavaScript code into templates is added.
+
+Thu Jun 23 15:57:27 MSD 2005 [*] - max - Improvement: Sorting of the modules list by actual names is added.
+
+Tue Jun 14 16:48:32 MSD 2005 [*] - max - Improvement: Ability to define a format that will be used for displaying numbers on all the site pages, as well as for validating input values, is added.
+
+Fri Jun 03 16:50:15 MSD 2005 [+] - mclap - Improvement: function "func_xml_parse" for parsing xml data is added.
+
+Fri Apr 22 14:54:00 MSD 2005 [*] - svowl - Script for sending newsletters spam.sh renamed to newsletter.sh
+
+Mon Apr 18 11:31:14 MSD 2005 [+] - mclap - Store maintenance agent for periodically sending store activity data etc is added.
+
+Sat Apr 09 13:14:56 MSD 2005 [+] - max - Multilanguage support is added for: titles, memberships, speed bar, payment mehods, month names.
+
+Fri Apr 01 10:26:29 MSD 2005 [+] - mclap - Improvement: Error logging functions are added. Shop logs can now be viewed from the Admin interface and are more configurable.
+
+Thu Mar 31 11:18:17 MSD 2005 [+] - max - Ability to view customers' wishlists via admin/provider interface is added.
+
+Tue Nov 23 17:02:02 MSK 2004 [*] - max - func_send_mail() is modified: now 2 types of mail messages are sent: plain text and HTML text. The message body structure is changed and optimized.
+
+Mon Sep 27 15:32:00 MSD 2004 [+] - svowl - System fingerprints management section is added.
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="error_access_denied.tpl" local="128147274600000000" remote="128147274600000000" testing="0" />
+<file name="error_access_denied12.18.06.tpl" local="128147274600000000" remote="128147274600000000" testing="0" />
+<file name="error_login_incorrect11.14.06.tpl" local="128147275200000000" remote="128147275200000000" testing="0" />
+<file name="error_login_incorrect.tpl" local="128147275200000000" remote="128147275200000000" testing="0" />
+<file name="login_form.tpl" local="128159335200000000" remote="128159335200000000" testing="0" />
+<file name="login_form11.13.06.tpl" local="128147275200000000" remote="128147275200000000" testing="0" />
+<file name="orders.tpl" local="128157696600000000" remote="128157696600000000" testing="0" />
+<file name="orders12.04.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="prnotice.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="prnotice09.14.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="product_details.tpl" local="128157708600000000" remote="128157708600000000" testing="0" />
+<file name="product_details09.20.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="products.tpl" local="128148071400000000" remote="128148071400000000" testing="0" />
+<file name="products10.11.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="register_account.tpl" local="128474095194494472" remote="128473987200000000" testing="0" />
+<file name="register_account11.16.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="register_billing_address.tpl" local="128157714600000000" remote="128157714600000000" testing="0" />
+<file name="register_billing_address11.16.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="register_contact_info.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="register_contact_info11.16.06.tpl" local="128147275800000000" remote="128147275800000000" testing="0" />
+<file name="register_personal_info.tpl" local="128147276400000000" remote="128147276400000000" testing="0" />
+<file name="register_personal_info11.16.06.tpl" local="128147276400000000" remote="128147276400000000" testing="0" />
+<file name="register_shipping_address.tpl" local="128161133400000000" remote="128161133400000000" testing="0" />
+<file name="register_shipping_address11.16.06.tpl" local="128147276400000000" remote="128147276400000000" testing="0" />
+<file name="search_sort_by.tpl" local="128147276400000000" remote="128147276400000000" testing="0" />
+<file name="search_sort_by12.01.06.tpl" local="128147276400000000" remote="128147276400000000" testing="0" />
+<file name="visiblebox_link.tpl" local="128157723000000000" remote="128157723000000000" testing="0" />
+<file name="visiblebox_link12.04.06.tpl" local="128147276400000000" remote="128147276400000000" testing="0" />
+</dwsync>

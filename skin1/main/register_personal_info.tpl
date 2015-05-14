@@ -1,0 +1,115 @@
+{* $Id: register_personal_info.tpl,v 1.12 2006/01/31 14:24:05 svowl Exp $ *}
+{if $is_areas.P eq 'Y'}
+{if $hide_header eq ""}
+<tr>
+<td class="wwmp_yourinfo_notice" align="left" colspan="3">All information will kept strictly confidential. We will never sell, share, rent, or lease your information to other parties in any way.</td>
+</tr>
+<tr>
+<td align="center" colspan="3">
+<!-- Start addition by Michael de Leon 11.16.06 -->
+<hr width="100%" size="1" noshade="noshade" color="#aaaaaa" />
+<!-- End addition by Michael de Leon 11.16.06 --></td>
+</tr>
+<tr>
+<td class="wwmp_yourinfo_title" align="left" colspan="3">{$lng.lbl_personal_information} <font class="wwmp_yourinfo_required">(<font class="wwmp_yourinfo_star">*</font> required)</font></td>
+</tr>
+<tr>
+<td class="wwmp_yourinfo_notice" align="center" colspan="3">Email address must be valid for communication purposes (invoices, order notifications, etc.) only.</td>
+</tr>
+{/if}
+
+{if $default_fields.title.avail eq 'Y'}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_title}</td>
+<td align="left">{if $default_fields.title.required eq 'Y'}<font class="Star">*</font>{else}&nbsp;{/if}</td>
+<td align="left">
+<select name="title" id="title">
+{include file="main/title_selector.tpl" field=$userinfo.titleid}
+</select>
+</td>
+</tr>
+{/if}
+{if $default_fields.firstname.avail eq 'Y'}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_first_name}</td>
+<td align="left">{if $default_fields.firstname.required eq 'Y'}<font class="Star">*</font>{else}&nbsp;{/if}</td>
+<td align="left">
+<input type="text" id="firstname" name="firstname" size="32" maxlength="32" value="{$userinfo.firstname}" />
+{if $reg_error ne "" and $userinfo.firstname eq "" && $default_fields.firstname.required eq 'Y'}<font class="Star">&lt;&lt;</font>{/if}
+</td>
+</tr>
+{/if}
+{if $default_fields.lastname.avail eq 'Y'}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_last_name}</td>
+<td align="left">{if $default_fields.lastname.required eq 'Y'}<font class="Star">*</font>{else}&nbsp;{/if}</td>
+<td align="left">
+<input type="text" id="lastname" name="lastname" size="32" maxlength="32" value="{$userinfo.lastname}" />
+{if $reg_error ne "" and $userinfo.lastname eq "" && $default_fields.lastname.required eq 'Y'}<font class="Star">&lt;&lt;</font>{/if}
+</td>
+</tr>
+{/if}
+{if $default_fields.company.avail eq 'Y'}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_company}</td>
+<td align="left">{if $default_fields.company.required eq 'Y'}<font class="Star">*</font>{else}&nbsp;{/if}</td>
+<td align="left">
+<input type="text" id="company" name="company" size="32" maxlength="255" value="{$userinfo.company}" />
+{if $reg_error ne "" and $userinfo.company eq "" && $default_fields.company.required eq 'Y'}<font class="Star">&lt;&lt;</font>{/if}
+</td>
+</tr>
+{/if}
+{if $default_fields.ssn.avail eq 'Y'}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_ssn}</td>
+<td align="left">{if $default_fields.ssn.required eq 'Y'}<font class="Star">*</font>{else}&nbsp;{/if}</td>
+<td align="left">
+<input type="text" id="ssn" name="ssn" size="32" maxlength="32" value="{$userinfo.ssn}" />
+{if $reg_error ne "" and $userinfo.ssn eq "" && $default_fields.ssn.required eq 'Y'}<font class="Star">&lt;&lt;</font>{/if}
+</td>
+</tr>
+{/if}
+{if $default_fields.tax_number.avail eq 'Y'}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_tax_number}</td>
+<td align="left">{if $default_fields.tax_number.required eq 'Y'}<font class="Star">*</font>{else}&nbsp;{/if}</td>
+<td align="left">
+{if $userinfo.tax_exempt ne "Y" or $config.Taxes.allow_user_modify_tax_number eq "Y" or $usertype eq "A" or $usertype eq "P"}
+<input type="text" id="tax_number" name="tax_number" size="32" maxlength="32" value="{$userinfo.tax_number}" />
+{if $reg_error ne "" and $userinfo.tax_number eq "" && $default_fields.tax_number.required eq 'Y'}<font class="Star">&lt;&lt;</font>{/if}
+{else}
+{$userinfo.tax_number}
+{/if}
+</td>
+</tr>
+{/if}
+{if $config.Taxes.enable_user_tax_exemption eq 'Y'}
+{if (($userinfo.usertype eq "C" or $smarty.get.usertype eq "C") and $userinfo.tax_exempt eq "Y") or ($usertype eq "A" or $usertype eq "P")}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_tax_exemption}</td>
+<td align="left">&nbsp;</td>
+<td align="left">
+{if $usertype eq "A" or $usertype eq "P"} 
+<input type="checkbox" id="tax_exempt" name="tax_exempt" value="Y"{if $userinfo.tax_exempt eq "Y"} checked="checked"{/if} />
+{elseif $userinfo.tax_exempt eq "Y"}
+{$lng.txt_tax_exemption_assigned}
+{/if}
+</td>
+</tr>
+{/if}
+{/if}
+{if $usertype eq "A" or $usertype eq "P"}
+<tr>
+<td class="wwmp_yourinfo_label" align="right">{$lng.lbl_referred_by}</td>
+<td align="left">&nbsp;</td>
+<td align="left">
+{if $userinfo.referer}
+<a href="{$userinfo.referer}">{$userinfo.referer}</a>
+{else}
+{$lng.lbl_unknown}
+{/if}
+</td>
+</tr>
+{/if}
+{include file="main/register_additional_info.tpl" section="P"}
+{/if}

@@ -1,0 +1,21 @@
+<?php
+if (!defined('XCART_START')) { header('Location: ../../'); die('Access denied'); }
+$modules['Detailed_Product_Images']=true;
+$modules['Wholesale_Trading']=true;
+$modules['Discount_Coupons']=true;
+$modules['Extra_Fields']=true;
+$modules['Order_Tracking']=true;
+$modules['Product_Options']=true;
+$modules['Upselling_Products']=true;
+$modules['Advanced_Statistics']=true;
+$modules['Recommended_Products']=true;
+$modules['Froogle']=true;
+$modules['Manufacturers']=true;
+$modules['Users_online']=true;
+$modules['Fast_Lane_Checkout']=true;
+$modules['SnS_connector']=true;
+$modules['HTML_Editor']=true;
+$modules['XC_SEO']=true;
+$modules['Image_Verification']=true;
+$modules['Special_Offers']=true;
+?>

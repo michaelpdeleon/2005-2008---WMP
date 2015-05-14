@@ -1,0 +1,78 @@
+YOUR ZONE LOCATOR †
+
+For shipments originating in ZIP code(s):
+96794      
+
+How to use this chart:
+
+Shipping with FedEx distance-based rates is easy
+with this Zone Locator specially customized to your
+origin location. It shows the zone for anywhere your
+FedEx Express® or FedEx Ground® shipment is going.
+Here’s all you do:
+
+1. Find your recipient’s ZIP code in this list using
+   either the first three digits or the full ZIP code,
+   whichever is shown.
+2. See which zone the ZIP code corresponds to,
+   then turn to that zone in the appropriate FedEx
+   rate tables.
+3. Find your rate under the shipment weight and
+   FedEx® service you choose.
+
+Effective: 10/15/2002
+-------------------------------------------------------------------------------
+Destination Zip               FedEx Express Zone            FedEx Ground Zone             
+000-003                       NA                            NA                            
+004-005                       14                            96                            
+006-007                       *                             10                            
+008                           NA                            NA                            
+009                           *                             10                            
+010-589                       14                            96                            
+590-591                       14                            92                            
+592-593                       14                            96                            
+594                           14                            92                            
+595                           14                            96                            
+596-599                       14                            92                            
+600-676                       14                            96                            
+677                           14                            92                            
+678                           14                            96                            
+679                           14                            92                            
+680-692                       14                            96                            
+693                           14                            92                            
+694-738                       14                            96                            
+739                           14                            92                            
+740-789                       14                            96                            
+790-791                       14                            92                            
+792                           14                            96                            
+793-794                       14                            92                            
+795-796                       14                            96                            
+797-966                       14                            92                            
+96700-96899                   **                            NA                            
+969                           NA                            NA                            
+970-994                       14                            92                            
+99500                         11                            17                            
+99501-99524                    9                            17                            
+99525-99539                   11                            17                            
+99540                          9                            17                            
+99541-99566                   11                            17                            
+99567                          9                            17                            
+99568-99576                   11                            17                            
+99577                          9                            17                            
+99578-99999                   11                            17                            
+-------------------------------------------------------------------------------
+
+Zones differ for FedEx Express and FedEx Ground services outside the contiguous
+U.S. Refer to the appropriate service rate guides to determine your shipping costs.
+
+To request another Zone Locator go to fedex.com and select Get Rates under the Ship tab.
+
+†FedEx reserves the right to modify its services and zone structure without notice.
+
+Note: Go to fedex.com for information on FedEx Home Delivery®.
+NA = Not applicable or ZIP code(s) not assigned.
+
+*Consult the FedEx Service Guide or call 1.800.GoFedEx 1.800.463.3339
+for information on shipments to Puerto Rico
+
+**For intra-Hawaii shipments - call 1.800.GoFedEx 1.800.463.3339

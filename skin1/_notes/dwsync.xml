@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="skin1.css" local="128216445380000000" remote="128268358200000000" testing="0" />
+<file name=".htaccess" local="128014997400000000" remote="128282002800000000" testing="0" />
+<file name=".skin_descr" local="128014997400000000" remote="128282002800000000" testing="0" />
+<file name="auth.tpl" local="128068821000000000" remote="128282004000000000" testing="0" />
+<file name="auth10.26.06.tpl" local="128282004000000000" remote="128282004000000000" testing="0" />
+<file name="authbox.tpl" local="128097262800000000" remote="128282004000000000" testing="0" />
+<file name="authbox10.26.06.tpl" local="128282004000000000" remote="128282004000000000" testing="0" />
+<file name="authbox_top.tpl" local="128014997400000000" remote="128282004000000000" testing="0" />
+<file name="bottom.tpl" local="128456641552457722" remote="128456533800000000" testing="0" />
+<file name="bottom09.14.06.tpl" local="128282004000000000" remote="128282004000000000" testing="0" />
+<file name="browser_identificator.js" local="128014997400000000" remote="128282004000000000" testing="0" />
+<file name="change_all_checkboxes.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="change_states.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="change_states_js.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_cc_number_script.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_cc_number_script.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_email_script.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_email_script.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_required_fields_js.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_required_fields_js.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_zipcode.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="check_zipcode_js.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="common.js" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="common_templates.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="copyright.tpl" local="128057281800000000" remote="128282004600000000" testing="0" />
+<file name="copyright09.14.06.tpl" local="128282004600000000" remote="128282004600000000" testing="0" />
+<file name="currency.tpl" local="128014997400000000" remote="128282004600000000" testing="0" />
+<file name="debug.tpl" local="128014997400000000" remote="128282006400000000" testing="0" />
+<file name="debug_templates.tpl" local="128014997400000000" remote="128282006400000000" testing="0" />
+<file name="dialog.tpl" local="128057281800000000" remote="128282006400000000" testing="0" />
+<file name="dialog09.15.06.tpl" local="128282006400000000" remote="128282006400000000" testing="0" />
+<file name="dialog_bioexcell.tpl" local="128030775600000000" remote="128282006400000000" testing="0" />
+<file name="dialog_clinical.tpl" local="128028147000000000" remote="128282006400000000" testing="0" />
+</dwsync>

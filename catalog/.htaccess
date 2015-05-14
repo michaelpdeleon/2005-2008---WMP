@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Set rewritebase to wherever you have x-cart installed
+# root dir = /
+# subdir = /xcart,/shop,etc
+RewriteBase /cart
+
+RewriteRule ^[^/]+-p-([0-9]+).html	product.php?productid=$1		[R=301,L]
+RewriteRule ^[^/]+-mf-([0-9]+)\.html$	manufacturers.php?manufacturerid=$1			[R=301,L]
+RewriteRule ^[^/]+-(orderby|price|title)(0|1)-p-([0-9]+)-c-([0-9]+)\.html$	home.php?cat=$4&page=$3&sort=$1&sort_direction=$2	[R=301,L]
+RewriteRule ^[^/]+-(orderby|price|title)(0|1)-c-([0-9]+)\.html$	home.php?cat=$3&sort=$1&sort_direction=$2	[R=301,L]
+RewriteRule ^[^/]+-p-([0-9]+)-c-([0-9]+)\.html$	home.php?cat=$2&page=$1	[R=301,L]
+RewriteRule ^[^/]+-c-([0-9]+)\.html$	home.php?cat=$1				[R=301,L]
+RewriteRule ^index\.html$	home.php				[R=301,L]

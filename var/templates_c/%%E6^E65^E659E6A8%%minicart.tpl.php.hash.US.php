@@ -1,0 +1,1 @@
+111fc668db5a1e71355d9f5802db3bb7a:3:{s:17:"lbl_cart_is_empty";s:5:"Empty";s:14:"lbl_cart_items";s:5:"Items";s:9:"lbl_total";s:5:"Total";}

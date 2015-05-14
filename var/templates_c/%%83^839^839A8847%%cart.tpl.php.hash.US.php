@@ -1,0 +1,1 @@
+60e8b947f9b5ba12f58bdbdad599e333a:6:{s:17:"lbl_items_in_cart";s:5:"Items";s:9:"lbl_price";s:5:"Price";s:12:"lbl_quantity";s:8:"Quantity";s:20:"lbl_selected_options";s:7:"Options";s:7:"lbl_sku";s:11:"Part number";s:31:"txt_your_shopping_cart_is_empty";s:27:"Your shopping cart is empty";}

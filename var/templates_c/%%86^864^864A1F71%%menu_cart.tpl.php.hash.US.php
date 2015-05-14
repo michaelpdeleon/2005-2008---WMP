@@ -1,0 +1,1 @@
+daa7433938f01a567f36acd574b83efda:5:{s:12:"lbl_checkout";s:8:"Checkout";s:21:"lbl_friends_wish_list";s:18:"Friend's Wish list";s:13:"lbl_view_cart";s:9:"View Cart";s:13:"lbl_wish_list";s:9:"Wish list";s:13:"lbl_your_cart";s:9:"Your Cart";}

@@ -1,0 +1,80 @@
+#v4menuwrapper {
+width:150px; 
+margin:0px auto 0 auto; 
+font-family:verdana, arial, helvetica, sans-serif; 
+font-size:76%; 
+color:#000;
+}
+
+.v4menu {
+	position:relative;
+	z-index:1000;
+}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.v4menu ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	width:150px;
+	padding-top: 0px;
+}
+/* hack for IE5.5 */
+* html .v4menu ul {margin-left:-16px; margin-left:0;}
+/* position relative so that you can position the sub levels */
+.v4menu li {
+position:relative;
+}
+
+/* get rid of the tables */
+.v4menutable {position:absolute; top:0; left:0; z-index:100; font-size:1em;}
+
+/* style the links */
+.v4menu a, .v4menu a:visited {
+display:block; 
+text-decoration:none;
+height:20px;
+line-height:20px;
+width:149px;
+color:#fff;
+background:#006688;
+text-indent:5px;
+border:1px solid #aaaaaa;
+border-width:0 1px 1px 0;
+}
+/* hack for IE5.5 */
+* html .v4menu a, * html .v4menu a:visited {width:150px; width:149px;}
+/* style the link hover */
+.v4menu a:hover{
+color:#fff; 
+background:#0087B4;
+text-decoration:none;
+}
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.v4menu ul ul {
+visibility:hidden;
+position:absolute;
+top:0;
+left:158px; 
+}
+/* make the second level visible when hover on first level list OR link */
+.v4menu ul :hover ul{
+visibility:visible;
+}
+/* keep the third level hidden when you hover on first level list OR link */
+.v4menu ul :hover ul ul{
+visibility:hidden;
+}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.v4menu ul :hover ul :hover ul ul{
+visibility:hidden;
+}
+/* make the third level visible when you hover over second level list OR link */
+.v4menu ul :hover ul :hover ul{ 
+visibility:visible;
+}
+/* make the fourth level visible when you hover over third level list OR link */
+.v4menu ul :hover ul :hover ul :hover ul { 
+visibility:visible;
+}

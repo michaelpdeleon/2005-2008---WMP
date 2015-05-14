@@ -1,0 +1,1 @@
+3012db6ffd1118569df81286196019eba:6:{s:11:"lbl_admin_s";s:16:"administrator(s)";s:24:"lbl_anonymous_customer_s";s:21:"anonymous customer(s)";s:14:"lbl_provider_s";s:11:"provider(s)";s:25:"lbl_registered_customer_s";s:22:"registered customer(s)";s:27:"lbl_unregistered_customer_s";s:24:"unregistered customer(s)";s:16:"lbl_users_online";s:12:"Users online";}

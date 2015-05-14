@@ -1,0 +1,5 @@
+<?php /* Smarty version 2.6.12, created on 2014-09-08 19:52:56
+         compiled from currency.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'abs_value', 'currency.tpl', 2, false),array('modifier', 'formatprice', 'currency.tpl', 2, false),)), $this); ?>
+<?php if ($this->_tpl_vars['plain_text_message'] == ""): ?><span style="WHITE-SPACE: nowrap"><?php endif;  if ($this->_tpl_vars['display_sign']):  if ($this->_tpl_vars['value'] >= 0): ?>+<?php else: ?>-<?php endif;  endif;  echo $this->_tpl_vars['config']['General']['currency_symbol'];  echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['value'])) ? $this->_run_mod_handler('abs_value', true, $_tmp) : smarty_modifier_abs_value($_tmp)))) ? $this->_run_mod_handler('formatprice', true, $_tmp) : smarty_modifier_formatprice($_tmp));  if ($this->_tpl_vars['plain_text_message'] == ""): ?></span><?php endif; ?>

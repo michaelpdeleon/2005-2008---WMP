@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="func.backoffice.php" local="128014959000000000" remote="128281986600000000" testing="0" />
+<file name="func.cart.php" local="128133602400000000" remote="128281986600000000" testing="0" />
+<file name="func.cart09.19.06.php" local="128031687990000000" remote="128281986600000000" testing="0" />
+<file name="func.category.php" local="128014959000000000" remote="128281986600000000" testing="0" />
+<file name="func.core.php" local="128133602400000000" remote="128281986600000000" testing="0" />
+<file name="func.core12.08.06.php" local="128100897030000000" remote="128281986600000000" testing="0" />
+<file name="func.crypt.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.db.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.debug.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.export.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.files.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.http.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.https_curl.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.https_httpscli.php" local="128014959600000000" remote="128281986600000000" testing="0" />
+<file name="func.https_libcurl.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.https_openssl.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.https_ssleay.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.image.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.import.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.mail.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.order.php" local="128133602400000000" remote="128281987200000000" testing="0" />
+<file name="func.order09.21.06.php" local="128033240930000000" remote="128281987200000000" testing="0" />
+<file name="func.payment.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.product.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.snapshots.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.taxes.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.templater.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.tests.php" local="128014995600000000" remote="128281987200000000" testing="0" />
+<file name="func.user.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+<file name="func.xml.php" local="128014959600000000" remote="128281987200000000" testing="0" />
+</dwsync>

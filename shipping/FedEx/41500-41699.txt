@@ -1,0 +1,247 @@
+YOUR ZONE LOCATOR †
+
+For shipments originating in ZIP code(s):
+41500-41699
+
+How to use this chart:
+
+Shipping with FedEx distance-based rates is easy
+with this Zone Locator specially customized to your
+origin location. It shows the zone for anywhere your
+FedEx Express® or FedEx Ground® shipment is going.
+Here’s all you do:
+
+1. Find your recipient’s ZIP code in this list using
+   either the first three digits or the full ZIP code,
+   whichever is shown.
+2. See which zone the ZIP code corresponds to,
+   then turn to that zone in the appropriate FedEx
+   rate tables.
+3. Find your rate under the shipment weight and
+   FedEx® service you choose.
+
+Effective: 10/15/2002
+-------------------------------------------------------------------------------
+CONTIGUOUS U.S.
+-------------------------------------------------------------------------------
+Destination Zip               Zone                          
+000-003                       NA                            
+004-005                       4                             
+010-011                       5                             
+012                           4                             
+013-059                       5                             
+060-061                       4                             
+062-063                       5                             
+064-127                       4                             
+128-129                       5                             
+130-149                       4                             
+150-157                       3                             
+158                           4                             
+159-163                       3                             
+164-199                       4                             
+200-205                       3                             
+206-208                       4                             
+209                           3                             
+210-214                       4                             
+215                           3                             
+216-219                       4                             
+220-232                       3                             
+233-237                       4                             
+238-241                       3                             
+242-243                       2                             
+244-245                       3                             
+246-253                       2                             
+254                           3                             
+255-259                       2                             
+260                           3                             
+261-262                       2                             
+263-265                       3                             
+266                           2                             
+267-270                       3                             
+271                           2                             
+272-278                       3                             
+279                           4                             
+280-283                       3                             
+284                           4                             
+285                           3                             
+286-289                       2                             
+290-293                       3                             
+294                           4                             
+295-298                       3                             
+299                           4                             
+300-312                       3                             
+313-328                       4                             
+329-342                       5                             
+343                           NA                            
+344                           4                             
+345                           NA                            
+346                           5                             
+347                           4                             
+348                           NA                            
+349                           5                             
+350-355                       4                             
+356-359                       3                             
+360-361                       4                             
+362                           3                             
+363-369                       4                             
+370-374                       3                             
+375                           4                             
+376-379                       2                             
+380-383                       4                             
+384-385                       3                             
+386-398                       4                             
+399-402                       3                             
+403-409                       2                             
+410                           3                             
+411-418                       2                             
+419                           NA                            
+420                           4                             
+421-424                       3                             
+425-426                       2                             
+427-455                       3                             
+456-457                       2                             
+458-462                       3                             
+463-466                       4                             
+467-479                       3                             
+480-497                       4                             
+498-505                       5                             
+506-507                       4                             
+508-516                       5                             
+517-519                       NA                            
+520                           4                             
+521                           5                             
+522-539                       4                             
+540                           5                             
+541-543                       4                             
+544-548                       5                             
+549                           4                             
+550-574                       5                             
+575-577                       6                             
+578-579                       NA                            
+580-581                       5                             
+582-588                       6                             
+589                           NA                            
+590-591                       7                             
+592-593                       6                             
+594-599                       7                             
+600-639                       4                             
+640-649                       5                             
+650-659                       4                             
+660-691                       5                             
+692-693                       6                             
+694-699                       NA                            
+700-703                       5                             
+704                           4                             
+705-711                       5                             
+712                           4                             
+713-714                       5                             
+715                           NA                            
+716-717                       4                             
+718                           5                             
+719-726                       4                             
+727                           5                             
+728                           4                             
+729-768                       5                             
+769                           6                             
+770-778                       5                             
+779-785                       6                             
+786-787                       5                             
+788                           6                             
+789                           5                             
+790-791                       6                             
+792                           5                             
+793-820                       6                             
+821                           7                             
+822-828                       6                             
+829-834                       7                             
+835                           8                             
+836-837                       7                             
+838                           8                             
+839                           NA                            
+840-853                       7                             
+854                           8                             
+855-865                       7                             
+866-869                       NA                            
+870-872                       6                             
+873                           7                             
+874-885                       6                             
+886-888                       NA                            
+889-893                       7                             
+894-897                       8                             
+898                           7                             
+899                           NA                            
+900-966                       8                             
+970-978                       8                             
+979                           7                             
+980-994                       8                             
+
+
+-------------------------------------------------------------------------------
+ALASKA, HAWAII, & PUERTO RICO
+-------------------------------------------------------------------------------
+Destination Zip               FedEx Express Zone            FedEx Ground Zone             
+006-007                       *                             10                            
+008                           NA                            NA                            
+009                           *                             10                            
+96700                         12                            9                             
+96701                         10                            9                             
+96702-96705                   12                            9                             
+96706-96707                   10                            9                             
+96708                         12                            9                             
+96709                         10                            9                             
+96710                         12                            9                             
+96711-96712                   10                            9                             
+96713-96716                   12                            9                             
+96717                         10                            9                             
+96718-96729                   12                            9                             
+96730-96731                   10                            9                             
+96732-96733                   12                            9                             
+96734                         10                            9                             
+96735-96743                   12                            9                             
+96744                         10                            9                             
+96745-96757                   12                            9                             
+96758-96759                   10                            9                             
+96760-96761                   12                            9                             
+96762                         10                            9                             
+96763-96774                   12                            9                             
+96775                         10                            9                             
+96776-96781                   12                            9                             
+96782                         10                            9                             
+96783-96785                   12                            9                             
+96786                         10                            9                             
+96787-96788                   12                            9                             
+96789                         10                            9                             
+96790                         12                            9                             
+96791-96792                   10                            9                             
+96793                         12                            9                             
+96794-96795                   10                            9                             
+96796                         12                            9                             
+96797                         10                            9                             
+96798-96800                   12                            9                             
+96801-96863                   10                            9                             
+96864-96899                   12                            9                             
+969                           NA                            NA                            
+99500                         11                            17                            
+99501-99524                   9                             17                            
+99525-99539                   11                            17                            
+99540                         9                             17                            
+99541-99566                   11                            17                            
+99567                         9                             17                            
+99568-99576                   11                            17                            
+99577                         9                             17                            
+99578-99999                   11                            17                            
+
+-------------------------------------------------------------------------------
+
+Zones differ for FedEx Express and FedEx Ground services outside the contiguous
+U.S. Refer to the appropriate service rate guides to determine your shipping costs.
+
+To request another Zone Locator go to fedex.com and select Get Rates under the Ship tab.
+
+†FedEx reserves the right to modify its services and zone structure without notice.
+
+Note: Go to fedex.com for information on FedEx Home Delivery®.
+NA = Not applicable or ZIP code(s) not assigned.
+
+*Consult the FedEx Service Guide or call 1.800.GoFedEx 1.800.463.3339
+for information on shipments to Puerto Rico

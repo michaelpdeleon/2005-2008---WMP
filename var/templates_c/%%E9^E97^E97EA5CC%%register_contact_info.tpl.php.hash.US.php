@@ -1,0 +1,1 @@
+5725a23db3ef75bd90220884eefdfea3a:5:{s:23:"lbl_contact_information";s:19:"Contact Information";s:9:"lbl_email";s:6:"E-Mail";s:7:"lbl_fax";s:3:"Fax";s:9:"lbl_phone";s:5:"Phone";s:12:"lbl_web_site";s:7:"Website";}

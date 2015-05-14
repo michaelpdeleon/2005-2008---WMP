@@ -1,0 +1,1 @@
+b180cff6f0805eadd12fefc8f66a9d2ea:4:{s:18:"lbl_authentication";s:5:"Login";s:18:"lbl_insecure_login";s:46:"Click here to log in using insecure login form";s:12:"lbl_password";s:8:"Password";s:12:"lbl_username";s:8:"Username";}

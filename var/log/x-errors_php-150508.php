@@ -1,0 +1,5 @@
+<?php die(); ?>
+[08-May-2015 07:01:02 Europe/Berlin] PHP Deprecated:  Function ereg_replace() is deprecated in /Volumes/MIKES_WORK/Github/MDL/WWMPonline.com1/auth.php on line 112
+[08-May-2015 07:01:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Volumes/MIKES_WORK/Github/MDL/WWMPonline.com1/check_requirements.php:440) in /Volumes/MIKES_WORK/Github/MDL/WWMPonline.com1/include/get_language.php on line 166
+[08-May-2015 07:01:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Volumes/MIKES_WORK/Github/MDL/WWMPonline.com1/check_requirements.php:440) in /Volumes/MIKES_WORK/Github/MDL/WWMPonline.com1/include/get_language.php on line 167
+[08-May-2015 07:01:02 Europe/Berlin] PHP Warning:  Smarty error: unable to read resource: "modules/Special_Offers/customer/new_offers_message.tpl" in /Volumes/MIKES_WORK/Github/MDL/WWMPonline.com1/Smarty-2.6.12/Smarty.class.php on line 1095

@@ -1,0 +1,6 @@
+<?php /* Smarty version 2.6.12, created on 2014-10-01 08:25:11
+         compiled from customer/main/alter_currency_value.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'math', 'customer/main/alter_currency_value.tpl', 2, false),array('modifier', 'formatprice', 'customer/main/alter_currency_value.tpl', 2, false),)), $this); ?>
+<?php if ($this->_tpl_vars['alter_currency_value'] == ""):  $this->assign('alter_currency_value', '0');  endif;  if ($this->_tpl_vars['config']['General']['alter_currency_symbol'] != ""): ?> (<?php if ($this->_tpl_vars['plain_text_message'] == ""): ?><span style="WHITE-SPACE: nowrap"><?php endif;  echo $this->_tpl_vars['config']['General']['alter_currency_symbol']; ?>
+ <?php echo smarty_function_math(array('equation' => "altercurrencyvalue*rate",'altercurrencyvalue' => $this->_tpl_vars['alter_currency_value'],'rate' => $this->_tpl_vars['config']['General']['alter_currency_rate'],'format' => "%.2f",'assign' => 'alter_price'), $this); echo ((is_array($_tmp=$this->_tpl_vars['alter_price'])) ? $this->_run_mod_handler('formatprice', true, $_tmp) : smarty_modifier_formatprice($_tmp));  if ($this->_tpl_vars['plain_text_message'] == ""): ?></span><?php endif; ?>)<?php endif; ?>

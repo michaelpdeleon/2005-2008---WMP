@@ -1,0 +1,27 @@
+/* $Id: calendar.css,v 1.1 2005/11/28 14:19:34 max Exp $ */
+.calendar_currentdateOff {
+	background-color: #FFFBD3;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+}
+.calendar_currentdateOn {
+	background-color: #FFCC66;
+	font: bold 10pt Arial, Helvetica, sans-serif
+}
+.calendar_dateOff {
+	background-color: #FFFBD3;
+	font: 10pt Arial, Helvetica, sans-serif
+}
+.calendar_dateOn {
+	background-color: #FFCC66;
+	font: 10pt Arial, Helvetica, sans-serif
+}
+.titleMonth {
+	background-color: #CC6600;
+	color:#FFFFFF;
+	font: bold 10pt Arial, Helvetica, sans-serif
+}
+.weekDayLabel {
+	background-color: #EEEBD3;
+	color:#880000;
+	font: bold 10pt Courier New
+}

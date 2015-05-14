@@ -1,0 +1,2 @@
+{* $Id: alter_currency_value.tpl,v 1.11.2.1 2006/04/29 06:36:56 max Exp $ *}
+{if $alter_currency_value eq ""}{assign var="alter_currency_value" value="0"}{/if}{if $config.General.alter_currency_symbol ne ""} ({if $plain_text_message eq ""}<span style="WHITE-SPACE: nowrap">{/if}{$config.General.alter_currency_symbol} {math equation="altercurrencyvalue*rate" altercurrencyvalue=$alter_currency_value rate=$config.General.alter_currency_rate format="%.2f" assign=alter_price}{$alter_price|formatprice}{if $plain_text_message eq ""}</span>{/if}){/if}

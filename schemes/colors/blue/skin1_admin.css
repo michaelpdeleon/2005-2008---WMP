@@ -1,0 +1,1073 @@
+/* $Id: skin1_admin.css,v 1.11.2.4 2006/08/09 11:20:33 max Exp $ */
+/*
+	General styles
+*/
+BODY,DIV,TH,TD,P,INPUT,SELECT,TEXTAREA,TT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, Sans-serif;
+	COLOR: #000000;
+	FONT-SIZE: 10px;
+}
+A:link {
+	COLOR: #081589;
+	TEXT-DECORATION: underline;
+}
+A:visited {
+	COLOR: #081589;
+	TEXT-DECORATION: underline;
+}
+A:hover {
+	COLOR: #FF0000;
+	TEXT-DECORATION: none;
+}
+A:active  {
+	COLOR: #081589;
+	TEXT-DECORATION: underline;
+}
+H1 {
+	FONT-SIZE: 15px;
+}
+H2 {
+	FONT-SIZE: 13px;
+}
+H3 {
+	FONT-SIZE: 12px;
+}
+HR {
+	COLOR: #DDDDDD;
+	HEIGHT: 1px;
+}
+HTML,BODY {
+	HEIGHT: 100%;
+	MARGIN: 0px;
+	PADDING: 0px;
+	BACKGROUND-COLOR: #FFFFFF;
+}
+FORM {
+	MARGIN: 0px;
+}
+TABLE,IMG {
+	BORDER: 0px;
+}
+
+/*
+	Content enviroment styles
+*/
+TABLE.Container {
+	HEIGHT: 100%;
+}
+TD.Container {
+	VERTICAL-ALIGN: top;
+}
+
+/*
+	Header styles
+*/
+.HeadLogo {
+	PADDING-LEFT: 27px;
+	TEXT-ALIGN: left;
+}
+.HeadRightBox {
+	VERTICAL-ALIGN: top;
+	TEXT-ALIGN: right;
+}
+.HeadText {
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+}
+.HeadLine {
+	BACKGROUND-COLOR: #D6D7D9;
+}
+.HeadThinLine {
+	BACKGROUND-COLOR: #68C1FF;
+	HEIGHT: 1px;
+}
+.PrintableRow {
+	WIDTH: 100%;
+	VERTICAL-ALIGN: middle;
+	PADDING-RIGHT: 176px;
+	HEIGHT: 18px;
+}
+.HeadTopPad {
+	HEIGHT: 18px;
+}
+.HeadTopPad IMG {
+	WIDTH: 1px;
+	HEIGHT: 18px;
+}
+
+/*
+	Footer styles
+*/
+.BottomRow {
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: bottom;
+}
+.BottomBox {
+	BACKGROUND-COLOR: #D6D7D9;
+	COLOR: #68C1FF;
+	HEIGHT: 22px;
+	VERTICAL-ALIGN: middle;
+	PADDING-LEFT: 12px;
+	PADDING-RIGHT: 12px;
+}
+.Bottom {
+	BACKGROUND-COLOR: #D6D7D9;
+	COLOR: #68C1FF;
+}
+.BottomPopup {
+	WIDTH: 100%;
+	TEXT-ALIGN: right;
+	PADDING-BOTTOM: 10px;
+}
+.BottomPopup A {
+	FONT-WEIGHT: bold;
+}   
+.BottomDialogBox {
+	BACKGROUND-COLOR: #FFE591;
+	PADDING-LEFT: 13px;
+	PADDING-TOP: 10px;
+	PADDING-BOTTOM: 10px;
+}
+
+/*
+	Common styles
+*/
+.SubmitBox {
+	PADDING-TOP: 10px;
+}
+.SubmitBox INPUT {
+	MARGIN-RIGHT: 15px;
+}
+HR.Line {
+	WIDTH: 100%;
+	HEIGHT: 1px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px;
+}
+HR.GreyLine {
+	BACKGROUND-COLOR: transparent;
+	BORDER: 0px;
+	BORDER-TOP: 1px solid grey;
+}
+.SectionBox {
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: left;
+	FONT-WEIGHT: normal;
+}
+.Text {
+	COLOR: #000000;
+}
+.NumberOfArticles {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+}
+.TopLabel {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.Message {
+	COLOR: #FF3300;
+}
+.Line {
+	BACKGROUND-COLOR: #FF3300;
+}
+TD.ButtonsRow {
+	PADDING-TOP: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 12px;
+	PADDING-BOTTOM: 2px;
+}
+.CustomerMessage {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+}
+.ErrorMessage {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+}
+.Star {
+	COLOR: #FF0000;
+}
+.TableHead {
+	BACKGROUND-COLOR: #DDDDDD;
+	FONT-WEIGHT: bold;
+    HEIGHT: 20px;
+    TEXT-ALIGN: center;
+    TEXT-TRANSFORM: uppercase;
+}
+.TableSubHead {
+	BACKGROUND-COLOR: #EEEEEE;
+	FONT-WEIGHT: normal;
+}
+.Spc {
+	WIDTH: 1px;
+	HEIGHT: 1px;
+}
+TABLE.EmptyBox {
+	WIDTH: 100%;
+}
+TABLE.EmptyBox TR TD {
+	PADDING: 0px;
+}
+.AdminSmallMessage {
+	COLOR: #FF3300;
+}
+.AdminTitle {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.TableHeadLevel2 {
+    BACKGROUND-COLOR: #CCCCCC;
+    COLOR: #000000;
+	FONT-WEIGHT: bold;
+    HEIGHT: 20px;
+    TEXT-ALIGN: center;
+}
+.TableLine {
+    BACKGROUND-COLOR: #F0F0F0;
+}
+.TableSeparator {
+    COLOR: #000000;
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+}
+.InputWidth {
+	WIDTH: 80%;
+}
+.StatisticsBar {
+	BACKGROUND-COLOR: #A8BCC8;
+}
+.HightLightRow {
+    BACKGROUND-COLOR: #B0B0B0;
+    FONT-WEIGHT: bold;
+}
+
+/*
+	Popup styles
+*/
+.PopupContainer {
+	HEIGHT: 100%;
+	WIDTH: 100%;
+	TEXT-ALIGN: center;
+}
+.PopupTitle {
+	BACKGROUND-COLOR: #D6D7D9;
+	HEIGHT: 15px;
+	VERTICAL-ALIGN: middle;
+	TEXT-ALIGN: center;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.PopupBG {
+	BACKGROUND-COLOR: #D6D7D9;
+}
+
+/*
+	BuyNow section
+*/
+.BuyNowQuantity {
+	HEIGHT: 25px;
+	WIDTH: 15%;
+	WHITE-SPACE: nowrap;
+	PADDING-RIGHT: 10px;
+}
+.BuyNowPrices {
+	WIDTH: 100%;
+	HEIGHT: 25px;
+	VERTICAL-ALIGN: middle;
+}
+
+/*
+	Vertical menu
+*/
+.VertMenuLeftColumn {
+	WIDTH: 150px;
+	VERTICAL-ALIGN: top;
+	PADDING-LEFT: 6px;
+	PADDING-RIGHT: 20px;
+}
+.VertMenuRightColumn {
+	WIDTH: 148px;
+	VERTICAL-ALIGN: top;
+	PADDING-LEFT: 20px;
+	PADDING-RIGHT: 6px;
+}
+.VertMenuBox {
+	BACKGROUND-COLOR: #D6D7D9;
+	PADDING: 1px;
+}
+.VertMenuBorder {
+	BACKGROUND-COLOR: #68C1FF;
+}
+.VertMenuTitle {
+	BACKGROUND-COLOR: #081589;
+	COLOR: #FFFFFF;
+	FONT-WEIGHT: bold;
+	PADDING: 1px;
+}
+.VertMenuSubTitle {
+	BACKGROUND-COLOR: #081589;
+}
+.VertMenuTitleIcon {
+	WIDTH: 21px;
+	HEIGHT: 20px;
+	MARGIN-LEFT: 8px;
+	MARGIN-RIGHT: 8px;
+	VERTICAL-ALIGN: middle;
+}
+.VertMenuItems {
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+A.VertMenuItems:link {
+	COLOR: #081589;
+	TEXT-DECORATION: none;
+}
+A.VertMenuItems:visited {
+	COLOR: #081589;
+	TEXT-DECORATION: none;
+}
+A.VertMenuItems:hover {
+	COLOR: #FF0000;
+	TEXT-DECORATION: underline;
+}
+A.VertMenuItems:active  {
+	COLOR: #081589;
+	TEXT-DECORATION: none;
+}
+.VertMenuItemsHL{
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A.VertMenuItemsHL:link {
+	COLOR: #081589;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A.VertMenuItemsHL:visited {
+	COLOR: #081589;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A.VertMenuItemsHL:hover {
+	COLOR: #FF0000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline;
+}
+A.VertMenuItemsHL:active  {
+	COLOR: #081589;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+.VertMenuHr {
+	WIDTH: 100%;
+	HEIGHT: 1px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px;
+	COLOR: #999999;
+}
+.CategoriesList {
+	FONT-SIZE: 12px;
+}
+
+/*
+	Dialog box
+*/
+TABLE.DialogBox {
+	WIDTH: 100%;
+	HEIGHT: 100%;
+	VERTICAL-ALIGN: top;
+}
+TD.DialogBox {
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: left;
+	PADDING: 10px;
+}
+.DialogBorder {
+	BACKGROUND-COLOR: #68C1FF;
+	HEIGHT: 100%;
+	PADDING: 0px;
+}
+TD.DialogTitle {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	BACKGROUND-IMAGE: url(images/dialog_bg_n.gif);
+	VERTICAL-ALIGN: bottom;
+	HEIGHT: 15px;
+	PADDING-TOP: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 10px;
+	PADDING-RIGHT: 0px;
+	TEXT-ALIGN: left;
+}
+FONT.DialogTitle {
+	COLOR: #FFFFFF;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	VERTICAL-ALIGN: bottom;
+	HEIGHT: 15px;
+	TEXT-ALIGN: left;
+	MARGIN-LEFT: 10px;
+}
+
+/*
+	Dialog info box
+*/
+TABLE.DialogInfo {
+	WIDTH: 85%;
+	TEXT-ALIGN: center;
+}
+.DialogInfoTitle {
+	COLOR: #FFFFFF;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	VERTICAL-ALIGN: bottom;
+	TEXT-ALIGN: left;
+	HEIGHT: 15px;
+	PADDING-TOP: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 5px;
+}
+.DialogInfoTitleBorder {
+	BACKGROUND-COLOR: #081589;
+	PADDING: 0px;
+	VERTICAL-ALIGN: bottom;
+	HEIGHT: 15px;
+}
+.DialogInfoBorder {
+	BACKGROUND-COLOR: #081589;
+	PADDING: 0px;
+}
+.DialogInfoIcon {
+	WIDTH: 16px;
+	HEIGHT: 16px;
+}
+.DialogInfoClose {
+	WIDTH: 15px;
+	HEIGHT: 13px;
+}
+
+/*
+	Dialog tools section
+*/
+.NavDialogTitle {
+	WIDTH: 50%;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    COLOR: #330000;
+	PADDING-LEFT: 8px;
+}   
+.NavDialogBorder {
+	BACKGROUND-COLOR: #D6D7D9;
+}
+.NavDialogBox {
+	BACKGROUND-COLOR: #FFFFFF;
+}
+.NavDialogSeparator {
+	WIDTH: 100%;
+	HEIGHT: 14px;
+	BACKGROUND-IMAGE: url(images/separator.gif);
+	PADDING-LEFT: 7px;
+}
+.NavDialogSeparator IMG {
+	WIDTH: 100%;
+	HEIGHT: 14px;
+}
+.NavDialogCell {
+	PADDING-RIGHT: 3px;
+}
+.NavDialogCell A IMG {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+}
+
+/*
+	Product details page
+*/
+.ProductTitle {
+	COLOR: #081589;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.ProductTitleHidden {
+	COLOR: #666666;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+}
+.ProductDetailsTitle {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.ProductDetails {
+	COLOR: #000000;
+}
+.ProductPriceTitle {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.ProductPriceConverting {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.ProductPrice {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+.ProductPriceSmall {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+}
+.SaveMoneyLabel {
+	WIDTH: 57px;
+	HEIGHT: 57px;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: middle;
+	COLOR: #FFFFFF;
+	FONT-WEIGHT: bold;
+	BACKGROUND-IMAGE: url(images/save_money.gif);
+}
+.MarketPrice {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Times New Roman;
+}
+
+/*
+	Products list
+*/
+.PListImgBox {
+	WIDTH: 90px;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+	WHITE-SPACE: nowrap;
+}
+HR.PListLine {
+	WIDTH: 100%;
+	HEIGHT: 1px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px;
+}
+.PListTaxBox {
+	PADDING-LEFT: 70px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	PADDING-BOTTOM: 2px;
+}
+.PListCell {
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: center;
+	PADDING: 10px;
+	VERTICAL-ALIGN: top;
+}
+
+/*
+	Items style
+*/
+.ItemsList {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+}
+.ItemsListDisabled {
+	COLOR: #909090;
+}
+A.ItemsList:link {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A.ItemsList:visited {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A.ItemsList:hover {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+A.ItemsList:active {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+
+/*
+	Location bar
+*/
+.NavigationPath {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+.NavigationPath:link {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline;
+}
+.NavigationPath:visited {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline;
+}
+.NavigationPath:hover {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+.NavigationPath:active  {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline;
+}
+
+/*
+	Buttons
+*/
+.FormButton {
+	COLOR: #081589;
+	FONT-WEIGHT: bold;
+}
+TABLE.ButtonTable {
+	CURSOR: pointer;
+	VERTICAL-ALIGN: middle;
+	DIRECTION: ltr;
+}
+TD.Button {								 
+	BACKGROUND: url(images/butbg.gif);
+	BACKGROUND-COLOR: #68C1FF;
+	BACKGROUND-REPEAT: repeat-x;
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 5px;
+	VERTICAL-ALIGN: middle;
+	WHITE-SPACE: nowrap;
+}
+FONT.Button {								 
+	FONT-FAMILY: Arial;
+	COLOR: #FFFFFF;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: none;
+}
+IMG.ButtonSide {
+	WIDTH: 7px;
+	HEIGHT: 14px;
+}
+.SimpleButton TR TD {
+	PADDING: 0px;
+	WHITE-SPACE: nowrap;
+}
+A.Button:link, A.Button:visited, A.Button:hover, A.Button:active {
+	COLOR: #330000;
+	FONT-WEIGHT: bold;
+}
+.GoImage {
+	WIDTH: 21px;
+	HEIGHT: 18px;
+	VERTICAL-ALIGN: middle;
+	BORDER: 0px;
+}
+
+/*
+	Small text/link style
+*/
+.SmallNote:link {
+	COLOR: #888888;
+	TEXT-DECORATION: none;
+	FONT-SIZE: 9px;
+	FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;
+}
+.SmallNote:visited {
+	COLOR: #888888;
+	TEXT-DECORATION: none;
+	FONT-SIZE: 9px;
+	FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;
+}
+.SmallNote:hover {
+	COLOR: #888888;
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 9px;FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;
+}
+.SmallNote:active {
+	COLOR: #888888;
+	TEXT-DECORATION: none;
+	FONT-SIZE: 9px;FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;
+}
+.SmallText {
+	COLOR: #7C4C00;
+	TEXT-DECORATION: none;
+	FONT-SIZE: 9px;
+	FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;
+}
+
+/*
+	Category page
+*/
+.SubcatTitle {
+	TEXT-ALIGN: left;
+	WIDTH: 95%;
+	PADDING-LEFT: 5px;
+}
+.SubcatInfo {
+	TEXT-ALIGN: right;
+	WHITE-SPACE: nowrap;
+	COLOR: #000000;
+}
+
+/*
+	Search sort bar
+*/
+.SearchSortTitle {
+	FONT-WEIGHT: bold;
+	PADDING-RIGHT: 20px;
+}
+.SearchSortLink:link, .SearchSortLink:visited, .SearchSortLink:hover, .SearchSortLink:active {
+	TEXT-DECORATION: underline;
+}
+.SearchSortImg {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+	MARGIN-RIGHT: 5px;
+}
+.SearchSortCell {
+	PADDING-RIGHT: 20px;
+}
+
+/*
+	Expandable section
+*/
+.ExpandSectionMark {
+	WIDTH: 11px;
+	CURSOR: pointer;
+	VERTICAL-ALIGN: middle;
+}
+
+/*
+	Tab mechanism
+*/
+.Tab {
+	BACKGROUND-COLOR: #D6D7D9;
+	FONT-WEIGHT: bold;
+	TEXT-TRANSFORM: uppercase;
+	WIDTH: 85px;
+	HEIGHT: 30px;
+	TEXT-ALIGN: center;
+}
+.TabTop {
+	HEIGHT: 5px;
+	BACKGROUND-COLOR: #D6D7D9;
+}
+TD.TabLeftSide {
+	WIDTH: 9px;
+	BACKGROUND-IMAGE: url(images/tab_l.gif);
+}
+TD.TabRightSide {
+	WIDTH: 9px;
+	BACKGROUND-IMAGE: url(images/tab_r.gif);
+}
+TD.TabLeftCorner {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+	BACKGROUND-IMAGE: url(images/tab_c1.gif);
+}
+TD.TabRightCorner {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+	BACKGROUND-IMAGE: url(images/tab_c2.gif);
+}
+TD.TabCenter {
+	HEIGHT: 9px;
+	BACKGROUND-IMAGE: url(images/tab_b.gif);
+}
+IMG.TabCorner {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+}
+IMG.TabSide {
+	WIDTH: 9px;
+	HEIGHT: 1px;
+}
+
+/*
+	Pagination mechanism
+*/
+.NavigationArrow {
+	WIDTH: 9px;
+	HEIGHT: 9px;
+}
+.NavigationTitle {
+	WHITE-SPACE: nowrap;
+	HEIGHT: 14px;
+	PADDING-RIGHT: 10px;
+}
+.NavigationCell {
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: bottom;
+	BACKGROUND-IMAGE: url(images/page.gif);
+	WIDTH: 17px;
+	HEIGHT: 14px;
+}
+.NavigationCell A:link, .NavigationCell A:visited, .NavigationCell A:hover, .NavigationCell A:active {
+	TEXT-DECORATION: none;
+}
+.NavigationCell IMG {
+	HEIGHT: 1px;
+	WIDTH: 17px;
+}
+.NavigationCellWide {
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: bottom;
+	BACKGROUND-IMAGE: url(images/page_wide.gif);
+	WIDTH: 23px;
+	HEIGHT: 14px;
+}
+.NavigationCellWide A:link, .NavigationCellWide A:visited, .NavigationCellWide A:hover, .NavigationCellWide A:active {
+	TEXT-DECORATION: none;
+}
+.NavigationCellWide IMG {
+	HEIGHT: 1px;
+	WIDTH: 23px;
+}
+.NavigationCellSel {
+	VERTICAL-ALIGN: middle;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: center;
+	WIDTH: 15px;
+}
+
+/*
+	Subheader styles
+*/
+TABLE.SubHeaderGrey {
+	WIDTH: 100%;
+	MARGIN-BOTTOM: 10px;
+}
+.SubHeaderGrey {
+	COLOR: #666666;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: bold;
+	PADDING: 0px;
+}
+.SubHeaderGreyLine {
+	HEIGHT: 1px;
+	BACKGROUND-COLOR: #CCCCCC;
+	PADDING: 0px;
+}
+TABLE.SubHeaderBlack {
+	WIDTH: 100%;
+	MARGIN-BOTTOM: 10px;
+}
+.SubHeaderBlack {
+	COLOR: #000000;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	PADDING: 0px;
+}
+.SubHeaderBlackLine {
+	HEIGHT: 1px;
+	BACKGROUND-COLOR: #000000;
+	PADDING: 0px;
+}
+TABLE.SubHeaderRed {
+	WIDTH: 100%;
+	MARGIN-BOTTOM: 10px;
+}
+.SubHeaderRed {
+	FONT-WEIGHT: bold;
+	PADDING: 0px;
+}
+.SubHeaderRedLine {
+	HEIGHT: 1px;
+	BACKGROUND-COLOR: #550000;
+	PADDING: 0px;
+}
+TABLE.SubHeader {
+	WIDTH: 100%;
+	MARGIN-BOTTOM: 10px;
+}
+.SubHeader {
+	COLOR: #FF3300;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	PADDING: 0px;
+}
+.SubHeaderLine {
+	HEIGHT: 1px;
+	BACKGROUND-COLOR: #FF6600;
+	PADDING: 0px;
+}
+
+/*
+	User profile page
+*/
+.RegSectionTitle {
+	COLOR: #550000;
+	FONT-SIZE: 10px;
+	FONT-WEIGHT: bold;
+}
+
+/*
+	Webmaster mode
+*/
+SPAN.Lbl {
+	COLOR: green;
+	FONT-WEIGHT: bold;
+}
+.Section {
+	MARGIN: 0px;
+	PADDING: 0px;
+}
+
+/*
+	Group editing of the products functionality
+*/
+.DataTable {
+	BORDER-RIGHT: solid 1px white;
+}
+
+/*
+	User action field stle
+*/
+.UsersActionDisable {
+	COLOR: #CC0000;
+}
+.UsersActionEnable {
+	COLOR: #00CC00;
+}
+
+/*
+	Data sheet container
+*/
+TABLE.DataSheet {
+	BACKGROUND-COLOR: black;
+	WIDTH: 100%;
+}
+TR.DataSheet {
+    BACKGROUND-COLOR: #CCCCCC;
+    COLOR: #000000;
+	FONT-WEIGHT: bold;
+    HEIGHT: 20px;
+    TEXT-ALIGN: center;
+    TEXT-TRANSFORM: uppercase;
+	WHITE-SPACE: nowrap;
+}
+TABLE.DataSheet TR TD {
+    BACKGROUND-COLOR: white;
+	PADDING: 2px;
+}
+TABLE.DataSheet TR TH {
+	PADDING: 2px;
+}
+
+/*
+	Images location page styles
+*/
+.DBOption {
+	COLOR: #0000CC;
+}
+.FSOption {
+	COLOR: #CC0000;
+}
+/*
+	Product options module
+*/
+.DataField {
+	PADDING-BOTTOM: 20px;
+}
+
+/*
+		-- ADDONS --
+*/
+
+/*
+	Special offers module
+*/
+.SpecialOffersThumb {
+	DISPLAY: inline;
+	MARGIN-LEFT: -51px;
+}
+.SpecialOffersThumb A IMG {
+	WIDTH: 47px;
+	HEIGHT: 44px;
+}
+
+/*
+	X-Affiliate module section
+*/
+.AffiliateCellBG {
+	WIDTH: 19px;
+	HEIGHT: 19px;
+	VERTICAL-ALIGN: middle;
+	BACKGROUND-IMAGE: url(images/tree_v.gif);
+}
+.AffiliateCell {
+	WIDTH: 19px;
+	HEIGHT: 19px;
+	VERTICAL-ALIGN: middle;
+}
+.AffiliateElmTitle {
+	TEXT-ALIGN: center;
+	FONT-WEIGHT: bold;
+	BACKGROUND-COLOR: #D6D7D9;
+	PADDING: 1px;
+}
+.AffiliateElmIconBox {
+	WIDTH: 70px;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: middle;
+}
+.AffiliateElmsBox {
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: top;
+	HEIGHT: 100%;
+}
+.MediaElementProperties {
+    COLOR: #666666;
+    FONT-SIZE: 10px;
+}
+.PImageImageCell {
+	PADDING: 5px;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: middle;
+	HEIGHT: 100%;
+}
+.PImageImageCell IMG {
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: middle;
+}
+.PImageNumbersCell {
+	PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	WHITE-SPACE: nowrap;
+}
+.PImageLine {
+	HEIGHT: 1px;
+	BACKGROUND-COLOR: #CCCCCC;
+}
+.PImageLine IMG {
+	HEIGHT: 1px;
+}
+BODY.PImage {
+	BACKGROUND-COLOR: #FFFFFF;
+}
+.PImagePageRow {
+	HEIGHT: 30px;
+	VERTICAL-ALIGN: middle;
+	PADDING-LEFT: 10px;
+}
+.EqualRow {
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: center;
+}
+
