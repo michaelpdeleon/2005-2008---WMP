@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.12, created on 2015-05-14 07:16:57
+<?php /* Smarty version 2.6.12, created on 2015-05-15 03:00:29
          compiled from customer/main/careers.tpl */ ?>
 <!-- Start of addition by Michael de Leon 11.24.06 -->
 <script type="text/javascript" src="ieupdate.js"></script>
@@ -73,7 +73,7 @@
           <td class="wwmp_careers_text" align="left">Send your resume and cover letter along with salary requirements (Microsoft Word or plain text format only) via: </td>
         </tr>
         <tr>
-          <td class="wwmp_careers_text" align="left"><strong>Email:</strong> <a class="wwmp_careers_textlink" href="javascript:">jobs@mdlab.com</a></td>
+          <td class="wwmp_careers_text" align="left"><strong>Email:</strong> <a class="wwmp_careers_textlink" href="javascript:">email</a></td>
         </tr>
         <tr>
           <td class="wwmp_careers_text" align="left"><strong>WWMP provides all training required by OSHA to ensure employee safety.</strong><br />
@@ -178,7 +178,7 @@
           <td class="wwmp_careers_text" align="left">Send your resume and cover letter along with salary requirements (Microsoft Word or plain text format only) via: </td>
         </tr>
         <tr>
-          <td class="wwmp_careers_text" align="left"><strong>Email:</strong> <a class="wwmp_careers_textlink" href="javascript:">jobs@mdlab.com</a></td>
+          <td class="wwmp_careers_text" align="left"><strong>Email:</strong> <a class="wwmp_careers_textlink" href="javascript:">email</a></td>
         </tr>
         <tr>
           <td class="wwmp_careers_text" align="left">Qualified candidates will be contacted.<br />
@@ -281,7 +281,7 @@
           <td class="wwmp_careers_text" align="left">Send your resume and cover letter along with salary requirements (Microsoft Word or plain text format only) via: </td>
         </tr>
         <tr>
-          <td class="wwmp_careers_text" align="left"><strong>Email:</strong> <a class="wwmp_careers_textlink" href="javascript:">jobs@mdlab.com</a></td>
+          <td class="wwmp_careers_text" align="left"><strong>Email:</strong> <a class="wwmp_careers_textlink" href="javascript:">email</a></td>
         </tr>
         <tr>
           <td class="wwmp_careers_text" align="left">Qualified candidates will be contacted.<br />
